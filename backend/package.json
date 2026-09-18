@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
+    "deploy": "node -e \"if (!require('fs').existsSync('public')) require('fs').mkdirSync('public', {recursive: true});\" && wrangler deploy",
     "tail": "wrangler tail",
     "typecheck": "tsc --noEmit"
   },

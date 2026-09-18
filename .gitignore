@@ -6,4 +6,6 @@ dist/
 .wrangler/
 *.log
 .DS_Store
-backend/public/
+backend/public/*
+!backend/public/.gitkeep
+
