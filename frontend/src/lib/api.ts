@@ -1,6 +1,6 @@
 import type { AuthUser, Engine, GenerateJob, GenerateRequest } from "./types";
 
-const API_BASE = import.meta.env.VITE_API_BASE ?? "";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://ageis2api.hahaogames.com";
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`, {

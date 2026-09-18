@@ -3,6 +3,10 @@ main = "src/index.ts"
 compatibility_date = "2024-09-25"
 compatibility_flags = ["nodejs_compat"]
 
+routes = [
+  { pattern = "ageis2api.hahaogames.com", custom_domain = true }
+]
+
 # Serves the built frontend (frontend/dist copied into ./public by the
 # root `npm run deploy` script) alongside the /api/* routes.
 [assets]
