@@ -1,0 +1,102 @@
+{
+  "app": {
+    "name": "AEGIS AI",
+    "tagline": "거버넌스 네이티브 게임 개발 에이전트"
+  },
+  "steps": {
+    "input": "입력",
+    "process": "프로세스",
+    "output": "출력"
+  },
+  "hero": {
+    "title1": "당신의 게임 아이디어, 우리의 AI 에이전트,",
+    "title2": "실제 결과.",
+    "subtitle": "AEGIS는 게임 아이디어를 완성된 게임 패키지로 만들어 드립니다. AI 에이전트와 모든 결과물을 검증하는 거버넌스 레이어로 동작합니다."
+  },
+  "input": {
+    "cardTitle": "게임을 설명해 주세요",
+    "cardSubtitle": "한 문장으로 게임 아이디어를 입력하면, AI 에이전트가 거버넌스로 검증된 완성 게임 패키지로 만들어 드립니다.",
+    "label": "게임 아이디어",
+    "placeholder": "해커가 도시의 AI가 인간의 기억을 몰래 조작하고 있다는 사실을 발견하는 사이버펑크 RPG.",
+    "genre": "게임 유형",
+    "platform": "목표 플랫폼",
+    "genres": {
+      "rpg": "RPG",
+      "action": "액션",
+      "adventure": "어드벤처",
+      "simulation": "시뮬레이션",
+      "strategy": "전략"
+    },
+    "platforms": {
+      "unity": "유니티",
+      "unreal": "언리얼 엔진",
+      "web": "웹 (HTML5)"
+    },
+    "submit": "게임 생성하기",
+    "submitting": "에이전트 시작 중…",
+    "estimate": "이 데모에서는 보통 몇 초면 완료됩니다",
+    "errorShort": "아이디어를 조금 더 자세히 입력해 주세요 (최소 몇 단어)."
+  },
+  "process": {
+    "title": "AI 에이전트가 작업 중입니다",
+    "subtitle": "아이디어가 완성된 게임으로 변환되는 과정입니다. 각 에이전트가 순차적으로 작업하며, 거버넌스가 결과를 검증합니다.",
+    "stage": {
+      "story": { "title": "세계관 & 스토리 에이전트", "desc": "세계관, 설정, 스토리라인을 구성합니다." },
+      "characters": { "title": "캐릭터 에이전트", "desc": "캐릭터, NPC, 대사를 생성합니다." },
+      "quests": { "title": "퀘스트 에이전트", "desc": "퀘스트와 미션 로직을 생성합니다." },
+      "assets": { "title": "에셋 에이전트", "desc": "3D 모델, 텍스처, UI 메타데이터를 준비합니다." },
+      "code": { "title": "코드 에이전트", "desc": "게임 로직과 엔진용 코드를 생성합니다." }
+    },
+    "status": {
+      "pending": "대기 중",
+      "running": "진행 중",
+      "completed": "완료"
+    },
+    "governance": {
+      "title": "거버넌스 검증",
+      "subtitle": "생성된 콘텐츠에 대해 모든 검증이 자동으로 실행됩니다.",
+      "allPassed": "모든 검증 통과",
+      "reviewRecommended": "검토 권장",
+      "check": {
+        "content_policy": "콘텐츠 정책",
+        "code_convention": "코드 컨벤션",
+        "data_consistency": "데이터 일관성",
+        "dependency_check": "종속성 & 에셋 라이선스"
+      },
+      "status": {
+        "pass": "PASS",
+        "warn": "검토 필요",
+        "fail": "FAIL"
+      }
+    },
+    "viewOutput": "결과 보기"
+  },
+  "output": {
+    "ready": "게임이 준비되었습니다",
+    "subtitle": "아이디어가 검증되고 엔진에 바로 사용할 수 있는 게임 패키지로 완성되었습니다.",
+    "storyPreview": "스토리 미리보기",
+    "filesTitle": "생성된 파일",
+    "packageTitle": "엔진 패키지",
+    "packageSubtitle": "원하는 엔진용 패키지를 바로 다운로드하세요.",
+    "download": "다운로드",
+    "startOver": "새 게임 만들기",
+    "contentLanguageNote": "이 데모 빌드에서 생성되는 스토리, 대사, 코드는 영어로 제공됩니다.",
+    "governanceSummary": "거버넌스: {{status}}"
+  },
+  "footer": {
+    "governance": { "title": "AI 거버넌스", "desc": "안전하고 신뢰할 수 있는 콘텐츠 생성" },
+    "multiEngine": { "title": "다중 엔진 지원", "desc": "Unity / Unreal / Web" },
+    "faster": { "title": "빠른 개발", "desc": "비용과 시간 절감" },
+    "studios": { "title": "게임 스튜디오 & 크리에이터 지원", "desc": "인디부터 엔터프라이즈까지" }
+  },
+  "auth": {
+    "signIn": "Google로 로그인",
+    "signedInAs": "{{name}}님으로 로그인됨",
+    "signOut": "로그아웃",
+    "notConfigured": "Google 로그인 (VITE_GOOGLE_CLIENT_ID 설정 필요)"
+  },
+  "common": {
+    "back": "뒤로",
+    "language": "언어"
+  }
+}

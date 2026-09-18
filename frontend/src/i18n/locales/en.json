@@ -1,0 +1,102 @@
+{
+  "app": {
+    "name": "AEGIS AI",
+    "tagline": "Governance-Native Game Development Agent"
+  },
+  "steps": {
+    "input": "Input",
+    "process": "Process",
+    "output": "Output"
+  },
+  "hero": {
+    "title1": "Your Game Idea, Our AI Agents,",
+    "title2": "Real Results.",
+    "subtitle": "AEGIS turns your game idea into a complete, verified, engine-ready package — powered by AI agents and a governance layer that checks every result."
+  },
+  "input": {
+    "cardTitle": "Describe Your Game",
+    "cardSubtitle": "Share your game idea in a sentence. Our AI agents turn it into a full game package, verified by governance.",
+    "label": "Game Idea",
+    "placeholder": "A cyberpunk RPG where a hacker discovers that the city's AI is secretly controlling human memories.",
+    "genre": "Game Type",
+    "platform": "Target Platform",
+    "genres": {
+      "rpg": "RPG",
+      "action": "Action",
+      "adventure": "Adventure",
+      "simulation": "Simulation",
+      "strategy": "Strategy"
+    },
+    "platforms": {
+      "unity": "Unity",
+      "unreal": "Unreal Engine",
+      "web": "Web (HTML5)"
+    },
+    "submit": "Generate Game",
+    "submitting": "Starting agents…",
+    "estimate": "Usually takes a few seconds in this demo",
+    "errorShort": "Add a little more detail to your idea (at least a few words)."
+  },
+  "process": {
+    "title": "AI Agents at Work",
+    "subtitle": "Your idea is being turned into a complete game. Each agent works in sequence, and governance validates the results.",
+    "stage": {
+      "story": { "title": "World & Story Agent", "desc": "Building world, lore, and the main storyline." },
+      "characters": { "title": "Character Agent", "desc": "Creating characters, NPCs, and dialogue." },
+      "quests": { "title": "Quest Agent", "desc": "Generating quests and mission logic." },
+      "assets": { "title": "Asset Agent", "desc": "Preparing 3D model, texture, and UI metadata." },
+      "code": { "title": "Code Agent", "desc": "Generating game logic and engine-ready code." }
+    },
+    "status": {
+      "pending": "Queued",
+      "running": "In progress",
+      "completed": "Completed"
+    },
+    "governance": {
+      "title": "Governance Validation",
+      "subtitle": "All checks run automatically against the generated content.",
+      "allPassed": "All checks passed",
+      "reviewRecommended": "Review recommended",
+      "check": {
+        "content_policy": "Content Policy",
+        "code_convention": "Code Convention",
+        "data_consistency": "Data Consistency",
+        "dependency_check": "Dependency & Asset License"
+      },
+      "status": {
+        "pass": "PASS",
+        "warn": "REVIEW",
+        "fail": "FAIL"
+      }
+    },
+    "viewOutput": "View Output"
+  },
+  "output": {
+    "ready": "Your Game Is Ready",
+    "subtitle": "Your idea has been turned into a verified, engine-ready game package.",
+    "storyPreview": "Story Preview",
+    "filesTitle": "Generated Files",
+    "packageTitle": "Engine Package",
+    "packageSubtitle": "Download a ready-to-use package for your target engine.",
+    "download": "Download",
+    "startOver": "Start a New Game",
+    "contentLanguageNote": "Generated story, dialogue, and code are produced in English in this demo build.",
+    "governanceSummary": "Governance: {{status}}"
+  },
+  "footer": {
+    "governance": { "title": "AI Governance", "desc": "Safe, reliable, and compliant generation" },
+    "multiEngine": { "title": "Multi-Engine Support", "desc": "Unity / Unreal / Web" },
+    "faster": { "title": "Faster Development", "desc": "Reduce cost and time" },
+    "studios": { "title": "For Game Studios & Creators", "desc": "From indie to enterprise" }
+  },
+  "auth": {
+    "signIn": "Sign in with Google",
+    "signedInAs": "Signed in as {{name}}",
+    "signOut": "Sign out",
+    "notConfigured": "Google sign-in (set VITE_GOOGLE_CLIENT_ID)"
+  },
+  "common": {
+    "back": "Back",
+    "language": "Language"
+  }
+}

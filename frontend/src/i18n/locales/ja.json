@@ -1,0 +1,102 @@
+{
+  "app": {
+    "name": "AEGIS AI",
+    "tagline": "ガバナンス・ネイティブなゲーム開発エージェント"
+  },
+  "steps": {
+    "input": "入力",
+    "process": "プロセス",
+    "output": "出力"
+  },
+  "hero": {
+    "title1": "あなたのゲームアイデアを、私たちのAIエージェントが、",
+    "title2": "実際の成果に。",
+    "subtitle": "AEGISはゲームアイデアを、検証済みでエンジンにすぐ使える完成パッケージへと変換します。AIエージェントと、生成物をすべて検証するガバナンス層によって実現します。"
+  },
+  "input": {
+    "cardTitle": "ゲームを説明してください",
+    "cardSubtitle": "一文でゲームアイデアを入力すると、AIエージェントがガバナンスで検証済みの完成ゲームパッケージを作成します。",
+    "label": "ゲームアイデア",
+    "placeholder": "ハッカーが、都市のAIが人々の記憶を密かに操作していることに気づくサイバーパンクRPG。",
+    "genre": "ゲームジャンル",
+    "platform": "対象プラットフォーム",
+    "genres": {
+      "rpg": "RPG",
+      "action": "アクション",
+      "adventure": "アドベンチャー",
+      "simulation": "シミュレーション",
+      "strategy": "ストラテジー"
+    },
+    "platforms": {
+      "unity": "Unity",
+      "unreal": "Unreal Engine",
+      "web": "Web (HTML5)"
+    },
+    "submit": "ゲームを生成",
+    "submitting": "エージェントを起動中…",
+    "estimate": "このデモでは通常数秒で完了します",
+    "errorShort": "アイデアをもう少し詳しく入力してください（数語以上）。"
+  },
+  "process": {
+    "title": "AIエージェントが作業中です",
+    "subtitle": "アイデアが完成したゲームへと変換されています。各エージェントが順番に作業し、ガバナンスが結果を検証します。",
+    "stage": {
+      "story": { "title": "世界観・ストーリーエージェント", "desc": "世界観、設定、メインストーリーを構築します。" },
+      "characters": { "title": "キャラクターエージェント", "desc": "キャラクター、NPC、セリフを生成します。" },
+      "quests": { "title": "クエストエージェント", "desc": "クエストとミッションロジックを生成します。" },
+      "assets": { "title": "アセットエージェント", "desc": "3Dモデル、テクスチャ、UIのメタデータを準備します。" },
+      "code": { "title": "コードエージェント", "desc": "ゲームロジックとエンジン用コードを生成します。" }
+    },
+    "status": {
+      "pending": "待機中",
+      "running": "処理中",
+      "completed": "完了"
+    },
+    "governance": {
+      "title": "ガバナンス検証",
+      "subtitle": "生成されたコンテンツに対してすべてのチェックが自動的に実行されます。",
+      "allPassed": "すべてのチェックに合格",
+      "reviewRecommended": "レビュー推奨",
+      "check": {
+        "content_policy": "コンテンツポリシー",
+        "code_convention": "コード規約",
+        "data_consistency": "データ整合性",
+        "dependency_check": "依存関係・アセットライセンス"
+      },
+      "status": {
+        "pass": "合格",
+        "warn": "要確認",
+        "fail": "不合格"
+      }
+    },
+    "viewOutput": "出力結果を見る"
+  },
+  "output": {
+    "ready": "ゲームの準備ができました",
+    "subtitle": "アイデアは検証済みで、エンジンにすぐ使えるゲームパッケージへと変換されました。",
+    "storyPreview": "ストーリープレビュー",
+    "filesTitle": "生成されたファイル",
+    "packageTitle": "エンジンパッケージ",
+    "packageSubtitle": "対象エンジン用のパッケージをすぐにダウンロードできます。",
+    "download": "ダウンロード",
+    "startOver": "新しいゲームを作成",
+    "contentLanguageNote": "このデモビルドで生成されるストーリー、セリフ、コードは英語で提供されます。",
+    "governanceSummary": "ガバナンス: {{status}}"
+  },
+  "footer": {
+    "governance": { "title": "AIガバナンス", "desc": "安全で信頼できる、コンプライアンスに準拠した生成" },
+    "multiEngine": { "title": "マルチエンジン対応", "desc": "Unity / Unreal / Web" },
+    "faster": { "title": "開発の高速化", "desc": "コストと時間を削減" },
+    "studios": { "title": "ゲームスタジオ・クリエイター向け", "desc": "インディーからエンタープライズまで" }
+  },
+  "auth": {
+    "signIn": "Googleでログイン",
+    "signedInAs": "{{name}} としてログイン中",
+    "signOut": "ログアウト",
+    "notConfigured": "Googleログイン（VITE_GOOGLE_CLIENT_ID の設定が必要です）"
+  },
+  "common": {
+    "back": "戻る",
+    "language": "言語"
+  }
+}

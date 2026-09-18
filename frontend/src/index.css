@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", "Pretendard", system-ui, sans-serif;
+  background: radial-gradient(1200px 600px at 15% -10%, rgba(124, 92, 255, 0.16), transparent 60%),
+    radial-gradient(1000px 500px at 100% 0%, rgba(34, 211, 238, 0.1), transparent 55%), #0a0e1a;
+}
+
+::selection {
+  background: rgba(124, 92, 255, 0.35);
+}
+
+/* Visible keyboard focus, kept subtle but real */
+:focus-visible {
+  outline: 2px solid #7c5cff;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+.card {
+  background: rgba(15, 21, 38, 0.7);
+  border: 1px solid #1e2740;
+  border-radius: 16px;
+}
+
+.gradient-text {
+  background-image: linear-gradient(90deg, #a78bfa, #60a5fa, #22d3ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

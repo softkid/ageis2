@@ -1,0 +1,102 @@
+{
+  "app": {
+    "name": "AEGIS AI",
+    "tagline": "治理原生游戏开发智能体"
+  },
+  "steps": {
+    "input": "输入",
+    "process": "处理",
+    "output": "输出"
+  },
+  "hero": {
+    "title1": "你的游戏创意，我们的 AI 智能体，",
+    "title2": "真实成果。",
+    "subtitle": "AEGIS 将你的游戏创意转化为完整、经过验证、可直接用于引擎的游戏包 —— 由 AI 智能体与治理层共同完成。"
+  },
+  "input": {
+    "cardTitle": "描述你的游戏",
+    "cardSubtitle": "用一句话分享你的游戏创意，AI 智能体会生成完整的游戏包，并经过治理层验证。",
+    "label": "游戏创意",
+    "placeholder": "一款赛博朋克 RPG，黑客发现城市的 AI 正在秘密操控人类的记忆。",
+    "genre": "游戏类型",
+    "platform": "目标平台",
+    "genres": {
+      "rpg": "角色扮演",
+      "action": "动作",
+      "adventure": "冒险",
+      "simulation": "模拟经营",
+      "strategy": "策略"
+    },
+    "platforms": {
+      "unity": "Unity",
+      "unreal": "虚幻引擎",
+      "web": "网页 (HTML5)"
+    },
+    "submit": "生成游戏",
+    "submitting": "正在启动智能体…",
+    "estimate": "在此演示中通常只需几秒钟",
+    "errorShort": "请再补充一些创意细节（至少几个词）。"
+  },
+  "process": {
+    "title": "AI 智能体正在工作",
+    "subtitle": "你的创意正在被转化为完整的游戏。每个智能体依次工作，治理层会验证生成结果。",
+    "stage": {
+      "story": { "title": "世界观 & 剧情智能体", "desc": "构建世界观、背景设定与主线剧情。" },
+      "characters": { "title": "角色智能体", "desc": "生成角色、NPC 与对白。" },
+      "quests": { "title": "任务智能体", "desc": "生成任务与关卡逻辑。" },
+      "assets": { "title": "资源智能体", "desc": "准备 3D 模型、贴图与 UI 元数据。" },
+      "code": { "title": "代码智能体", "desc": "生成游戏逻辑与引擎可用代码。" }
+    },
+    "status": {
+      "pending": "排队中",
+      "running": "进行中",
+      "completed": "已完成"
+    },
+    "governance": {
+      "title": "治理验证",
+      "subtitle": "所有检查会自动针对生成内容运行。",
+      "allPassed": "全部通过",
+      "reviewRecommended": "建议人工复核",
+      "check": {
+        "content_policy": "内容政策",
+        "code_convention": "代码规范",
+        "data_consistency": "数据一致性",
+        "dependency_check": "依赖与素材授权"
+      },
+      "status": {
+        "pass": "通过",
+        "warn": "待复核",
+        "fail": "未通过"
+      }
+    },
+    "viewOutput": "查看输出结果"
+  },
+  "output": {
+    "ready": "你的游戏已准备就绪",
+    "subtitle": "你的创意已转化为经过验证、可直接用于引擎的游戏包。",
+    "storyPreview": "剧情预览",
+    "filesTitle": "生成的文件",
+    "packageTitle": "引擎包",
+    "packageSubtitle": "下载适用于目标引擎的现成游戏包。",
+    "download": "下载",
+    "startOver": "开始新游戏",
+    "contentLanguageNote": "在此演示版本中，生成的剧情、对白和代码均为英文。",
+    "governanceSummary": "治理状态：{{status}}"
+  },
+  "footer": {
+    "governance": { "title": "AI 治理", "desc": "安全、可靠、合规的内容生成" },
+    "multiEngine": { "title": "多引擎支持", "desc": "Unity / Unreal / Web" },
+    "faster": { "title": "更快的开发", "desc": "降低成本与时间" },
+    "studios": { "title": "面向游戏工作室与创作者", "desc": "从独立开发者到企业级团队" }
+  },
+  "auth": {
+    "signIn": "使用 Google 登录",
+    "signedInAs": "已登录：{{name}}",
+    "signOut": "退出登录",
+    "notConfigured": "Google 登录（需设置 VITE_GOOGLE_CLIENT_ID）"
+  },
+  "common": {
+    "back": "返回",
+    "language": "语言"
+  }
+}
