@@ -9,7 +9,23 @@ interface AuthContextValue {
 const AuthContext = createContext<AuthContextValue | null>(null);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [user, setUser] = useState<AuthUser | null>(null);
+  const [user, setUserState] = useState<AuthUser | null>(() => {
+    try {
+      const saved = localStorage.getItem("aegis_user");
+      return saved ? (JSON.parse(saved) as AuthUser) : null;
+    } catch {
+      return null;
+    }
+  });
+
+  const setUser = (u: AuthUser | null) => {
+    setUserState(u);
+    try {
+      if (u) localStorage.setItem("aegis_user", JSON.stringify(u));
+      else localStorage.removeItem("aegis_user");
+    } catch {}
+  };
+
   const value = useMemo(() => ({ user, setUser }), [user]);
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
