@@ -93,7 +93,7 @@
     "signIn": "Google로 로그인",
     "signedInAs": "{{name}}님으로 로그인됨",
     "signOut": "로그아웃",
-    "notConfigured": "Google 로그인 (VITE_GOOGLE_CLIENT_ID 설정 필요)"
+    "notConfigured": "Google로 로그인"
   },
   "common": {
     "back": "뒤로",
